@@ -704,62 +704,38 @@ a {
         color: #fff;
     }
     
-    .pathone {
-        position: absolute;
-        right: 21rem;
-        top: 22rem;
-        animation: zoomInOut1 4s infinite;
-    }
-    
-    @keyframes zoomInOut1 {
-        0% {
-            transform: scale(1.5);
-        }
-    
-        50% {
-            transform: scale(0.1);
-        }
-    
-        100% {
-            transform: scale(1.5);
-        }
-    }
-    
-    .pathtwo {
-        position: absolute;
-        right: 62rem;
-        top: 15rem;
-        animation: zoomInOut2 4s infinite;
-    }
-    
-    @keyframes zoomInOut2 {
-        0% {
-            transform: scale(0.1);
-        }
-    
-        50% {
-            transform: scale(1.5);
-        }
-    
-        100% {
-            transform: scale(0.1);
-        }
-    }
-    
-    .paththree {
-        position: absolute;
-        top: 18rem;
-        left: 10rem;
-        animation: zoomInOut1 4s infinite;
-    }
-    
-    
+    .pathone,
+    .pathtwo,
+    .paththree,
     .pathfour {
-        position: absolute;
-        left: 63rem;
-        top: 32rem;
-        animation: zoomInOut2 4s infinite;
+        position: static;
+        animation: none;
     }
+
+    .pathone {
+        right: auto;
+        top: auto;
+        margin: 1rem auto;
+    }
+
+    .pathtwo {
+        right: auto;
+        top: auto;
+        margin: 1rem auto;
+    }
+
+    .paththree {
+        top: auto;
+        left: auto;
+        margin: 1rem auto;
+    }
+
+    .pathfour {
+        left: auto;
+        top: auto;
+        margin: 1rem auto;
+    }
+
     
     
     .background-img {
