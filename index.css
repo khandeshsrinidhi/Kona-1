@@ -644,7 +644,7 @@ a {
         width: 80%; /* Adjust width as needed */
     
   
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
     *{
         margin: 0px;
         padding: 0px;
@@ -813,4 +813,4 @@ a {
         width: 90%;
         margin: 0 auto;
     }
-} */
+} 
